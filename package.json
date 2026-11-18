@@ -1,0 +1,25 @@
+{
+  "name": "big-screen-hub",
+  "version": "1.0.0",
+  "private": false,
+  "description": "Vue 3 data visualization big-screen templates. Frontend only, mock data, no backend.",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "echarts": "^5.6.0",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "vite": "^6.2.0"
+  }
+}
