@@ -57,11 +57,6 @@ function backHome() {
       <main class="body">
         <slot />
       </main>
-      <footer class="statusbar">
-        <span>VUE 3 · ECHARTS · PURE FRONTEND</span>
-        <span>数据为本地模拟，仅供演示</span>
-        <span>F 全屏 · 点击主题循环切换</span>
-      </footer>
     </div>
   </div>
 </template>
@@ -204,18 +199,6 @@ function backHome() {
 .body {
   flex: 1;
   min-height: 0;
-  padding: 14px 18px;
-}
-
-.statusbar {
-  height: 36px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 22px;
-  color: #58728e;
-  font-size: 12px;
-  letter-spacing: 1px;
-  border-top: 1px solid rgba(88, 140, 190, 0.2);
+  padding: 14px 18px 18px;
 }
 </style>
